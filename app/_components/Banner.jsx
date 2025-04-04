@@ -3,7 +3,6 @@
 import React, { UserRef, UseStage } from "react";
 import Image from "next/image"; // Image bileşeni doğru şekilde import edildi.
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper"; // Navigation modülünü de ekledik
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation"; // Navigation için Swiper CSS

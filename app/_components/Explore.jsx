@@ -6,7 +6,6 @@ import Image from "next/image"; // Image bileşeni doğru şekilde import edildi
 const Explore = () => {
   return (
     <>
-      <div>
         {/* h1 ve p kısmının bulunduğu div */}
         <div className="grid grid-cols-6 text-center py-10">
           <div className="col-start-2 col-span-4">
@@ -82,7 +81,6 @@ const Explore = () => {
           {/* Third Card End */}
         </div>
         {/* Cards End */}
-      </div>
     </>
   );
 };

@@ -90,6 +90,7 @@ const SkzooCard = ({ name, description, image }) => {
 const Skzoo = () => {
   return (
     <div className="container max-w-none py-8">
+      <h1 className="text-4xl font-bold text-center">SKZOO</h1>
       <Swiper
         slidesPerView={3}
         spaceBetween={30}

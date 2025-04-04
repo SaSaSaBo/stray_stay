@@ -76,7 +76,9 @@ const MemberCard = ({ name, description, image, instagram }) => {
       }`}
     >
       <h2 className="text-xl font-bold">{name}</h2>
-      <p className={`${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>{description}</p>
+      <p className={`${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>
+        {description}
+      </p>
       <img
         src={image}
         alt={name}
@@ -98,6 +100,7 @@ const MemberCard = ({ name, description, image, instagram }) => {
 const Members = () => {
   return (
     <div className="container max-w-none py-8">
+      <h1 className="text-4xl font-bold text-center">Members</h1>
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
